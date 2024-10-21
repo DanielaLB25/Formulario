@@ -1,0 +1,65 @@
+/* Cambiar el color de fondo de la página */
+body {
+    background-color: #f751a4; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Estilo de fuente */
+}
+
+/* Estilo del encabezado (h1) */
+h1 {
+    color: #333333; /* Color del texto del encabezado */
+    text-align: center; /* Alinear al centro */
+    padding: 20px;
+}
+
+/* Estilos para los enlaces del menú */
+ul {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0;
+}
+
+li {
+    display: inline; /* Mostrar los elementos en línea */
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    color: #007bff; /* Color de los enlaces */
+    font-size: 18px; /* Tamaño de la fuente */
+}
+
+a:hover {
+    color: #0056b3; /* Color de los enlaces al pasar el mouse */
+}
+
+/* Opcional: añadir un estilo más elegante */
+body {
+    background-color: #f583a9;
+}
+
+h1 {
+    color: #4d0741;
+}
+
+ul {
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    background-color: #4d0741;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4d0741;
+}
+

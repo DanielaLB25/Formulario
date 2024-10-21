@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Libro</title>
+</head>
+<body>
+    <h1>Registro de Libro</h1>
+    <form method="POST">
+        <label>Título:</label>
+        <input type="text" name="titulo" required><br>
+
+        <label>Autor:</label>
+        <input type="text" name="autor" required><br>
+
+        <label>Resumen:</label>
+        <textarea name="resumen" required></textarea><br>
+
+        <label>Medio:</label>
+        <select name="medio">
+            <option value="Físico">Físico</option>
+            <option value="Magnético">Magnético</option>
+        </select><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

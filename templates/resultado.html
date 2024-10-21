@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado</title>
+</head>
+<body>
+    <h1>{{ titulo }}</h1>
+    <ul>
+    {% for key, value in datos.items() %}
+        <li>{{ key }}: {{ value }}</li>
+    {% endfor %}
+    </ul>
+    <a href="/">Volver al Menú Principal</a>
+</body>
+</html>
